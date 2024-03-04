@@ -4,16 +4,21 @@ import './home.css'
 function Home() {
     return (
         <>
-        <div className="home-title">
-            
-                Hello, I'm Anthony Yuen
+            <div className="home">
+                <div className="home-card">
+                    <div className="h1">
 
-                asdasdasd
-                    asd
-                    asd
-                    asdsdf
-                    asdasdasdafffffffff
-            
+                        <h1>Hi there! I'm Anthony</h1>
+                        <br></br>
+                        <p>I'm a recent Grad from AUT</p>
+                        <br></br>
+                        <p>I'm looking for jobs in </p>
+                        <br></br>
+                        <h2>Software Development</h2>
+                        <p>and</p>
+                        <h2>IT Support</h2>.
+                    </div>
+                </div>
             </div>
         </>
     )

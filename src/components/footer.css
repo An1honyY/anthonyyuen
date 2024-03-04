@@ -1,0 +1,16 @@
+footer {
+    color: white;
+    background-color: #291261;
+    min-height: 30vh;
+    width: auto;
+    bottom: 0;
+    position : relative;
+}
+
+footer .copyright {
+    bottom: 0;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+}
