@@ -1,0 +1,131 @@
+/*Header*/
+
+header {
+    color: white;
+    width: 100%;
+    background: linear-gradient(to right, #765ab1, #491eaf);
+    padding: 1em;
+    font-size: 0.6em;
+    text-align: left;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+
+}
+
+.header-container-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+
+header .logo {
+    width: 100%;
+    max-width: 50px;
+    min-width: 35px;
+    height: auto;
+}
+
+header .logo:hover {
+    filter: drop-shadow(0 0 1em #b9a6a6);
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Title */
+
+header h1 {
+    display: flex;
+    align-items: center;
+    transition: margin-right 2s, color 1s;
+}
+
+header h1:hover {
+    filter: drop-shadow(0 0 1em #b9a6a6);
+    animation-name: bounce-blink;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bounce-blink {
+    20% {
+        transform: translateY(-30px);
+    }
+
+    35% {
+        color: #e72525;
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    58% {
+        transform: translateY(5px);
+    }
+
+    70% {
+        transform: translateY(-5px);
+    }
+    80% {
+        color: #e72525;
+        transform: translateY(0px);
+    }
+
+    90% {
+        color: white;
+        transform: translateY(-3px);
+    }
+
+    100% {
+        color: white;
+        transform: translateY(0px);
+    }
+}
+
+header .impact {
+    color: #e72525;
+}
+
+/* Nav bar */
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0 1em;
+    transition: all 0.25s;
+}
+
+nav a:hover {
+    font-weight: 700;
+    font-size: 2em;
+    color: #e72525;
+    filter: drop-shadow(0 0 1em #b9a6a6);
+}
