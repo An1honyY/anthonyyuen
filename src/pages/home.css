@@ -10,14 +10,14 @@
 
 .home-card {
     background: hsla(33, 94%, 57%, 1);
-
     background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 70%);
     filter: drop-shadow(0 0 1em #b9a6a6);
     padding: 2em;
     margin-bottom: 0em;
     border-radius: 20px;
-    height: 75vh;
-    width: 80vw;
+    min-height: 500px;
+    height: fit-content;
+    width: fit-content;
     min-width: 300px;
     margin: auto;
     text-align: left;

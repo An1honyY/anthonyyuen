@@ -12,10 +12,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* { 
+* { /*Removes default margins that show up during build*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 h1 {

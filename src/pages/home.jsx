@@ -3,7 +3,7 @@ import './home.css'
 
 function Home() {
     return (
-        <>
+        <main>
             <div className="home">
                 <div className="home-card">
                     <div className="h1">
@@ -20,7 +20,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </>
+        </main>
     )
 }
 
