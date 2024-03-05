@@ -6,7 +6,7 @@ header {
     background: hsla(307, 93%, 84%, 1);
     /* background: linear-gradient(90deg, hsl(259, 36%, 52%) 0%, hsla(256, 96%, 44%, 1) 100%);
     background: linear-gradient(to right, hsl(259, 36%, 52%), #491eaf); */
-    
+
     background: hsla(256, 57%, 23%, 1);
     background: linear-gradient(360deg, hsla(256, 57%, 23%, 1) 10%, hsla(257, 72%, 41%, 1) 69%);
     padding: 1em 1em 0em 1em;
@@ -88,6 +88,7 @@ header h1:hover {
     70% {
         transform: translateY(-5px);
     }
+
     80% {
         color: #e72525;
         transform: translateY(0px);
@@ -134,4 +135,54 @@ nav a:hover {
     font-size: 2em;
     color: #e72525;
     filter: drop-shadow(0 0 1em #b9a6a6);
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .nav-menu {
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #481db4;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        visibility: hidden;
+    }
+
+    .nav-menu.open {
+        display: flex;
+        visibility: visible;
+    }
+
+    .nav-menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-menu li {
+        margin: 15px 0;
+        font-size: 2em;
+    }
 }
