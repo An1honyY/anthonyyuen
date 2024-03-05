@@ -42,3 +42,44 @@
     font-weight: 600;
     color: black;
 }
+
+.home-button-CV {
+    text-decoration: none;
+    color: white;
+    background-color: #3146ff;
+    font-weight: 600;
+    padding: 0.7em;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    float: right;
+}
+
+.home-button-CV:hover {
+    color: #f89b2a;
+    background-color: #2035f8;
+    font-weight: 700;
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-card {
+        width: 90%;
+    }
+    .home h1 {
+        font-size: 3em;
+    }
+    .home h2 {
+        font-size: 2em;
+    }
+    .home p {
+        font-size: 1.5em;
+    }
+    .home-button-CV {
+        font-size: 1.5em;
+    }
+}   

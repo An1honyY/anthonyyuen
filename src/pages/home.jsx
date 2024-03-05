@@ -18,6 +18,11 @@ function Home() {
                         <p>and</p>
                         <h2>IT Support</h2>
                     </div>
+
+                    <a className="home-button-CV" href="../../public/AnthonyYuen_CV_2024.pdf" download>
+                        Download my CV
+                    </a>
+
                 </div>
             </div>
         </main>
