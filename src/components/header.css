@@ -4,8 +4,11 @@ header {
     color: white;
     height: 70px;
     background: hsla(307, 93%, 84%, 1);
-    background: linear-gradient(90deg, hsl(259, 36%, 52%) 0%, hsla(256, 96%, 44%, 1) 100%);
-    background: linear-gradient(to right, hsl(259, 36%, 52%), #491eaf);
+    /* background: linear-gradient(90deg, hsl(259, 36%, 52%) 0%, hsla(256, 96%, 44%, 1) 100%);
+    background: linear-gradient(to right, hsl(259, 36%, 52%), #491eaf); */
+    
+    background: hsla(256, 57%, 23%, 1);
+    background: linear-gradient(360deg, hsla(256, 57%, 23%, 1) 10%, hsla(257, 72%, 41%, 1) 69%);
     filter: drop-shadow(0 0 1em #b9a6a6);
     padding: 1em 1em 0em 1em;
     font-size: 0.6em;
@@ -14,7 +17,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     justify-self: center;
-
+    user-select: none;
 }
 
 .header-container-left {
@@ -29,6 +32,7 @@ header .logo {
     max-width: 50px;
     min-width: 35px;
     height: auto;
+    margin-right: 10px;
 }
 
 header .logo:hover {

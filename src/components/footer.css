@@ -1,10 +1,47 @@
 footer {
     color: white;
-    background-color: #291261;
-    min-height: 30vh;
+    /* background-color: #291261; */
+    background: hsla(256, 57%, 23%, 1);
+    background: linear-gradient(180deg, hsla(256, 57%, 23%, 1) 20%, hsla(257, 72%, 41%, 1) 69%);
+    min-height: 40vh;
+    height: auto;
     width: auto;
-    bottom: 0;
-    position : relative;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .triangle-border {
+    width: auto;
+    height: 0;
+    border-left: 50vw solid white;
+    border-right: 50vw solid white;
+    border-bottom: 50px solid hsla(256, 57%, 23%, 1);
+    border-bottom: 50px solid linear-gradient(180deg, hsla(256, 57%, 23%, 1) 20%, hsla(257, 72%, 41%, 1) 69%);
+
+}
+
+footer .polygon-fill {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);
+    background: hsla(256, 57%, 23%, 1);
+    background: linear-gradient(180deg, hsla(256, 57%, 23%, 1) 20%, hsla(257, 72%, 41%, 1) 69%);
+}
+
+footer .content {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+
 }
 
 footer .copyright {
