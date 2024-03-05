@@ -14,9 +14,11 @@ function Footer() {
 
     return (
         <footer>
-            <div className="triangle-border"></div>
-            <div className="polygon-fill">
-                <div className="content">
+            <div className="border-invisible">
+                <div className="border-triangle"></div>
+            </div>
+            <div className="content">
+                <div className="polygon-fill">
                     Thanks for Visiting!
                     <br></br>
                     <br></br>
@@ -24,18 +26,19 @@ function Footer() {
                     Check out my other projects on GitHub
                     <br></br>
                     Or contact me via Email or LinkedIn
-                </div>
-                <div className="icons">
-                    <a href="https://linkedin.com/in/anthony-yuen-089208229"><img src={linkedin} alt="linkednin-icon" /></a>
-                    <a href="https://github.com/An1honyY"><img src={github} alt="github-icon" /></a>
-                    <img src={email} alt="email-icon" onClick={copyToClipboard} />
-                </div>
+                    <div className="icons">
+                        <a href="https://linkedin.com/in/anthony-yuen-089208229"><img src={linkedin} alt="linkednin-icon" /></a>
+                        <a href="https://github.com/An1honyY"><img src={github} alt="github-icon" /></a>
+                        <img src={email} alt="email-icon" onClick={copyToClipboard} />
+                    </div>
 
-                <p className="copyright">
-                    © 2024 Anthony Yuen. All rights reserved.
-                </p>
+                    <p className="copyright">
+                        © 2024 Anthony Yuen. All rights reserved.
+                    </p>
+                </div>
             </div>
         </footer>
+
     )
 }
 

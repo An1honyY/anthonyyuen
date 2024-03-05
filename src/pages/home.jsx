@@ -16,7 +16,7 @@ function Home() {
                         <br></br>
                         <h2>Software Development</h2>
                         <p>and</p>
-                        <h2>IT Support</h2>.
+                        <h2>IT Support</h2>
                     </div>
                 </div>
             </div>

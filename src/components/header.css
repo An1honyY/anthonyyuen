@@ -9,7 +9,6 @@ header {
     
     background: hsla(256, 57%, 23%, 1);
     background: linear-gradient(360deg, hsla(256, 57%, 23%, 1) 10%, hsla(257, 72%, 41%, 1) 69%);
-    filter: drop-shadow(0 0 1em #b9a6a6);
     padding: 1em 1em 0em 1em;
     font-size: 0.6em;
     margin-bottom: 4em;
