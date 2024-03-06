@@ -18,13 +18,16 @@ function Header() {
           <img src={logo} alt="logo" />
 
         </div>
-        <h1>Anthony <div className="impact"> Yuen</div></h1>
+        <Link to="/">
+          <h1>Anthony <div className="impact"> Yuen</div></h1>
+        </Link>
       </div>
       <div className="header-container-right">
         <div className={`burger-menu ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
+          {/* Burger Menu Bars */}
+          <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
+          <div className={`bar-middle ${isMenuOpen ? 'open' : ''}`}></div>
+          <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
         </div>
         <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <ul>
