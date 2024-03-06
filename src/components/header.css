@@ -114,7 +114,7 @@ header .impact {
     }
 
     100% {
-        
+
         background: linear-gradient(90deg, hsla(216, 100%, 55%, 1) 0%, hsla(202, 67%, 62%, 1) 100%);
         -webkit-background-clip: text;
         background-clip: text;
@@ -148,9 +148,9 @@ nav a:hover {
     font-weight: 700;
     font-size: 2em;
     background: linear-gradient(90deg, hsla(216, 100%, 55%, 1) 0%, hsla(202, 67%, 62%, 1) 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 1em #b9a6a6);
 }
 
@@ -186,12 +186,12 @@ nav a:hover {
         transform: scaleX(-1);
     }
 
-    .bar.open{
+    .bar.open {
         transform: rotate(45deg);
         transition: transform 0.25s ease-in-out;
     }
 
-    .bar-middle.open{
+    .bar-middle.open {
         transform: scaleX(2);
         transform: translateX(5px);
         transition: transform 0.25s ease-in-out;
@@ -221,7 +221,7 @@ nav a:hover {
 
     nav a {
         padding: 20px 16px;
-        transition: all 0s; 
+        transition: all 0s;
     }
 
     .nav-menu ul {

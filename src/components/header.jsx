@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './header.css'
 import logo from '../assets/dev-logo.svg'
+import './header.css'
 
 function Header() {
+  // Burger Menu Things
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
