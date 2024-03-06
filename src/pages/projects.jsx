@@ -11,6 +11,8 @@ function Projects() {
             <h1>
                 Projects
             </h1>
+
+            <p> Unity Snake Game, IoT Fingerprint Attendance Device, ReactJS Dental Web App</p>
         </main>
     )
 }

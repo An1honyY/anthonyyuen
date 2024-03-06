@@ -12,6 +12,9 @@ function Contact() {
             <h1>
                 Contact
             </h1>
+            <p>Email: ant.jo.yuen@gmail.com</p>
+            <p>Github: <a href="https://github.com/An1honyY" rel="noopener noreferrer">An1honyY</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anthony-yuen-0b0a3b1b3/" rel="noopener noreferrer">Anthony Yuen</a></p>
         </main>
     )
 }

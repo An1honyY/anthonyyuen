@@ -10,8 +10,12 @@ function About() {
                     Check back later for updates</p>
                 </div>
             <h1>
-                About
+                About 
             </h1>
+
+            <p>Currently practicing Web development skills. This website helps with that :)</p>
+
+            <p>I'm also learning Active Directory with the aim of getting an IT role.</p>
         </main>
     )
 }
