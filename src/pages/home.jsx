@@ -19,7 +19,7 @@ function Home() {
                         <h2>IT Support</h2>
                     </div>
 
-                    <a className="home-button-CV" href={"AnthonyYuen_CV_2024.pdf?url"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="nooner noreferrer">
+                    <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="noopener noreferrer">
                         Download my CV
                     </a>
 
