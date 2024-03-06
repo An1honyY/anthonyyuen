@@ -166,11 +166,17 @@ nav a:hover {
         background-color: #481db4;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         visibility: hidden;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     .nav-menu.open {
         display: flex;
         visibility: visible;
+    }
+
+    nav a {
+        transition: all 0s;
     }
 
     .nav-menu ul {
@@ -183,6 +189,7 @@ nav a:hover {
 
     .nav-menu li {
         margin: 15px 0;
-        font-size: 2em;
+        font-size: 1.5
+        em;
     }
 }
