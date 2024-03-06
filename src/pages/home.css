@@ -1,12 +1,9 @@
 .home {
-    /* background-image: url("../assets/whiteswiggles.jpg"); */
     height: 100vh;
-    width: 99vw;
-    padding: 2em;
+    width: 96vw;
     display: flex;
     box-sizing: border-box;
     margin-bottom: 1em;
-    position: relative;
 }
 
 .home-card {
@@ -19,7 +16,7 @@
     height: fit-content;
     width: fit-content;
     min-width: 300px;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
     box-sizing: border-box;
 }
@@ -68,7 +65,7 @@
     }
 
     .home-card {
-        width: 95%;
+        width: 94%;
         margin: 0 auto;
     }
 

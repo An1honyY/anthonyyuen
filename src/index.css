@@ -18,6 +18,11 @@
     box-sizing: border-box;
 }
 
+Link {
+  text-decoration: none;
+  color: inherit;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -29,7 +34,7 @@ main {
   margin-bottom: 4em;
   padding: 0.5em;
   box-sizing: border-box;
-  position:relative;
+  
 }
 
 h1 {

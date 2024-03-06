@@ -5,9 +5,9 @@ header {
     height: 3.8rem;
     background: white;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    padding: 1em 1em 0em 1em;
+    padding: 1em 3em 1em 3em;
     font-size: 0.6em;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,13 +21,12 @@ header {
 .header-container-left {
     display: flex;
     align-items: center;
-    margin-left: 0.7em;
 }
 
 .header-container-right {
     display: flex;
     align-items: center;
-    margin-left: 2em;
+    margin-left: 10px;
 }
 
 /* Logo */
@@ -65,7 +64,6 @@ header h1 {
     align-items: center;
     color: rgb(16, 108, 220);
     transition: margin-right 2s, color 1s;
-    text-decoration: none;
 }
 
 header h1:hover {
