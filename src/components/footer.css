@@ -60,3 +60,9 @@ footer .copyright {
     font-weight: 500;
     color: white;
 }
+
+@media (max-width: 768px) {
+    footer .polygon-fill {
+        clip-path: polygon(0 0, 90% 0, 100% 200%, 0 70%);
+    }
+}
