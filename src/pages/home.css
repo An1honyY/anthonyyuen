@@ -1,5 +1,5 @@
 .home {
-    min-height: 100vh;
+    min-height: 85vh;
     width: 96vw;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,6 @@
     margin: 0 auto;
     margin-top: 1.3em;
     width: fit-content;
-    
 }
 
 .home-button-contact:hover {
