@@ -45,6 +45,9 @@
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease;
     float: right;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
 }
 
 .home-button-CV:hover {
@@ -60,6 +63,7 @@
     padding: 2em;
     border-radius: 20px;
     min-height: 12em;
+    width: 100%;
     margin-bottom: 2em;
     text-align: center;
     box-sizing: border-box;
@@ -112,14 +116,10 @@
         font-size: 1.2em;
         margin-top: 1em;
         float: none;
-        display: flex;
-        justify-content: center;
     }
 
     .home-button-contact {
         font-size: 1.2em;
         margin-top: 1em;
-        display: flex;
-        justify-content: center;
     }
 }
