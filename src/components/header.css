@@ -56,7 +56,7 @@ header .logo:hover {
     }
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none),(pointer: coarse) {
 
     /* Smartphones and touchscreens */
     header .logo:hover {
