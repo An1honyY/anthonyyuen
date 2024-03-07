@@ -5,31 +5,28 @@ import './home.css'
 function Home() {
     return (
         <main>
-            <div className="home">
-                <div className="home-card">
-                    <p>Hi there!</p>
-                    <h1>I'm Anthony</h1>
-                    <br></br>
-                    <p>I'm a recent Grad from AUT</p>
-                    <br></br>
-                    <p>I'm looking for jobs in </p>
-                    <br></br>
-                    <h2>Software Development</h2>
-                    <p>and</p>
-                    <h2>IT Support</h2>
-                    <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="noopener noreferrer">
-                        Download my CV
-                    </a>
-                </div>
+            <div className="home-card">
+                <p>Hi there!</p>
+                <h1>I'm Anthony</h1>
+                <br></br>
+                <p>I'm a recent Grad from AUT</p>
+                <br></br>
+                <p>I'm looking for jobs in </p>
+                <br></br>
+                <h2>Software Development</h2>
+                <p>and</p>
+                <h2>IT Support</h2>
+                <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="noopener noreferrer">
+                    Download my CV
+                </a>
+            </div>
 
-                <div className="home-call-to-action">
-                    <h2>Get in touch</h2>
-                    <p>Feel free to contact me if you have any questions or would like to work with me</p>
-                    <Link to="/contact" className="home-button-contact">
-                        Contact Me
-                    </Link>
-                </div>
-
+            <div className="home-call-to-action">
+                <h2>Get in touch</h2>
+                <p>Feel free to contact me if you have any questions or would like to work with me</p>
+                <Link to="/contact" className="home-button-contact">
+                    Contact Me
+                </Link>
             </div>
         </main>
     )
