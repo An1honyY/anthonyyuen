@@ -196,7 +196,6 @@ nav a:hover {
 .bar-middle {
     width: 15px;
     height: 3px;
-    position: right;
     background-color: black;
     margin: 6px 0;
     border-radius: 5px;
