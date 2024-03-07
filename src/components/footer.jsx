@@ -8,7 +8,7 @@ function Footer() {
     function copyToClipboard() {
         const email = "ant.jo.yuen@gmail.com";
         navigator.clipboard.writeText(email).then(() => {
-            alert("Email copied to clipboard");
+            alert('Email: "ant.jo.yuen@gmail.com" copied to clipboard');
         });
     }
 
@@ -27,8 +27,8 @@ function Footer() {
                     <br></br>
                     Or contact me via Email or LinkedIn
                     <div className="icons">
-                        <a href="https://linkedin.com/in/anthony-yuen-089208229"><img src={linkedin} alt="linkednin-icon" /></a>
-                        <a href="https://github.com/An1honyY"><img src={github} alt="github-icon" /></a>
+                        <a href="https://linkedin.com/in/anthony-yuen-089208229" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkednin-icon" /></a>
+                        <a href="https://github.com/An1honyY" target="_blank" rel="noopener noreferrer"><img src={github} alt="github-icon" /></a>
                         <img src={email} alt="email-icon" onClick={copyToClipboard} />
                     </div>
 
