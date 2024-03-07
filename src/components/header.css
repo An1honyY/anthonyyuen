@@ -56,6 +56,15 @@ header .logo:hover {
     }
 }
 
+@media (hover: none) and (pointer: coarse) {
+
+    /* Smartphones and touchscreens */
+    header .logo:hover {
+        filter: none;
+        animation: none;
+    }
+}
+
 
 /* Title */
 
@@ -72,6 +81,16 @@ header h1:hover {
     animation-duration: 2.5s;
     animation-iteration-count: 1;
 }
+
+@media (hover: none) and (pointer: coarse) {
+
+    /* Smartphones and touchscreens */
+    header h1:hover {
+        filter: none;
+        animation: none;
+    }
+}
+
 
 header .impact {
     background: linear-gradient(90deg, hsla(216, 100%, 55%, 1) 0%, hsla(202, 67%, 62%, 1) 100%);
