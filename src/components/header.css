@@ -65,15 +65,6 @@ header .logo:hover {
     }
 }
 
-@media (hover: none) {
-
-    /* Smartphones and touchscreens */
-    header .logo:hover {
-        filter: none;
-        animation: none;
-    }
-}
-
 
 /* Title */
 
@@ -92,7 +83,7 @@ header h1:hover {
     animation-iteration-count: 1;
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none), (pointer: coarse) {
 
     /* Smartphones and touchscreens */
     header h1:hover {
