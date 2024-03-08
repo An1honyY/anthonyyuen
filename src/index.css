@@ -34,11 +34,10 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 50vh;
-  width:96vw;
+  width:100%;
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 4em;
-  padding: 0.5em;
   box-sizing: border-box;
   
 }
@@ -65,11 +64,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (max-width: 375px) {
-  main {
-    /* Allow more screen Real Estate */
-    width: auto;
-  }
 }
