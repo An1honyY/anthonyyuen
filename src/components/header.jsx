@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/dev-logo.svg'
+import logo from '/dev-logo.svg'
 import './header.css'
 
 function Header() {

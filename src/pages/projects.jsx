@@ -1,6 +1,7 @@
 import React from "react"
 import './projects.css'
 import stock from '../assets/stock.webp'
+import Skeleton from "react-loading-skeleton"
 
 function Projects() {
     return (
@@ -18,7 +19,7 @@ function Projects() {
 
             <div className="projects">
                 <div className="project-card">
-                    <img src={stock} />
+                    <img src={stock}/>
                     <div className="project-card-text">
                         <h2>Znake</h2>
                         <p>A 3D Gaiju style snake game made in Unity.</p>
