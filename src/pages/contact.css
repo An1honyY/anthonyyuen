@@ -25,3 +25,41 @@
     color: black;
     text-align: center;
 }
+
+
+/* Contact Card */
+
+.contact-card {
+    background: hsla(33, 94%, 57%, 1);
+    /* background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 70%); */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 2em;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    min-width: 300px;
+    margin: 0 0.5em;
+    margin-bottom: 4em;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Contact Card Font */
+
+.contact-card h1 {
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-card h2 {
+    font-size: 4em;
+    color: white;
+}
+
+.contact-card p {
+    font-size: 1em;
+    font-weight: 450;
+    color: white;
+}
