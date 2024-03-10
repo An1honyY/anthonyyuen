@@ -1,9 +1,9 @@
 import React from "react"
 import './projects.css'
 import stock from '../assets/stock.webp'
-import Skeleton from "react-loading-skeleton"
 
 function Projects() {
+
     return (
         <main>
             <div className="work-in-progress-card">
@@ -32,7 +32,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={stock} />
+                    <img src={stock}/>
                     <div className="project-card-text">
                         <h2>Fingerprint Attendance</h2>
                         <p>An IoT Fingerprint Attendance prototype using a Raspberry Pi, Adafruit fingerprint sensor and Sunfounder Components.</p>
@@ -45,7 +45,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={stock} />
+                    <img src={stock}/>
                     <div className="project-card-text">
                         <h2>Tooth Mate</h2>
                         <p>A year long Research and Development paper culminating in the development of a Dental Web App prototype made in React.js.</p>
@@ -58,7 +58,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={stock} />
+                    <img src={stock}/>
                     <div className="project-card-text">
                         <h2>This Website</h2>
                         <p>A portfolio website to present myself in an interactive and visual format.</p>

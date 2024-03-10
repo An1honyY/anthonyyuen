@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import Header from './components/header'
 import Footer from './components/footer'
 import Home from './pages/home'
@@ -14,7 +13,6 @@ function App() {
 
   return (
     <>
-    <SkeletonTheme color="#202020" highlightColor="#444">
       <Router>
         <Header />
         <Routes>
@@ -25,7 +23,6 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-      </SkeletonTheme>
     </>
   )
 }
