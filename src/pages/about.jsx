@@ -29,7 +29,7 @@ function About() {
 
                 <br></br>
                 <p>Currently, I'm practicing Web development. This website helps with that :)</p>
-                <p>I'm also studying towards the A+ cert to provide me with more IT support related skills.</p>
+                <p>I'm also studying towards the COMPTIA A+ cert to provide me with more IT support related skills.</p>
             </section>
         </main>
     )
