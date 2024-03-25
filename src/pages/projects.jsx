@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import './projects.css'
 import stock from '../assets/stock.webp'
 
@@ -18,8 +19,8 @@ function Projects() {
             <p> Heres some of my projects</p>
 
             <div className="projects">
-                <div className="project-card">
-                    <img src={stock}/>
+                <Link to="/projects/znake" className="project-card">
+                    <img src={stock} />
                     <div className="project-card-text">
                         <h2>Znake</h2>
                         <p>A 3D Gaiju style snake game made in Unity.</p>
@@ -30,9 +31,9 @@ function Projects() {
                         <p>Language: C#</p>
                         <p>Framework: Unity</p>
                     </div>
-                </div>
+                </Link>
                 <div className="project-card">
-                    <img src={stock}/>
+                    <img src={stock} />
                     <div className="project-card-text">
                         <h2>Fingerprint Attendance</h2>
                         <p>An IoT Fingerprint Attendance prototype using a Raspberry Pi, Adafruit fingerprint sensor and Sunfounder Components.</p>
@@ -45,7 +46,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={stock}/>
+                    <img src={stock} />
                     <div className="project-card-text">
                         <h2>Tooth Mate</h2>
                         <p>A year long Research and Development paper culminating in the development of a Dental Web App prototype made in React.js.</p>
@@ -58,7 +59,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-card">
-                    <img src={stock}/>
+                    <img src={stock} />
                     <div className="project-card-text">
                         <h2>This Website</h2>
                         <p>A portfolio website to present myself in an interactive and visual format.</p>
