@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import './projects.css'
 import stock from '../assets/stock.webp'
+import znake_img from '../assets/znake1.webp'
 
 function Projects() {
 
@@ -20,7 +21,7 @@ function Projects() {
 
             <div className="projects">
                 <Link to="/projects/znake" className="project-card">
-                    <img src={stock} />
+                    <img src={znake_img} />
                     <div className="project-card-text">
                         <h2>Znake</h2>
                         <p>A 3D Gaiju style snake game made in Unity.</p>

@@ -37,18 +37,14 @@
     align-items: stretch;
 }
 
-.project-link {
-    border-radius: 30px;
-    height: min-content * 2;
-    user-select: contain;
-}
-
 .project-card {
     background-color: #f8f8f8;
     border-radius: 30px;
     height: min-content * 2;
     margin: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
+    justify-items: center;
 }
 
 .project-card:hover {
@@ -59,9 +55,9 @@
 
 
 .project-card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 30vh;
+    /* height: auto; */
+    justify-content: auto;
     border-radius: 30px 30px 0px 0px;
 }
 
