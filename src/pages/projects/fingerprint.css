@@ -1,0 +1,50 @@
+.fingerprint {
+    margin: 40px;
+}
+.fingerprint h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fingerprint p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.fingerprint a:hover{
+    text-decoration: underline;
+}
+
+.fingerprint-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fingerprint-content section {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1em;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    min-width: 300px;
+    margin: 0 0.5em;
+    margin-bottom: 2em;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #94d8f7;
+}
+
+.fingerprint-content .fingerprint-snapshots {
+    max-width: 40vw;
+    max-width: fit-content;
+
+}
+
+.fingerprint-content .fingerprint-snapshots img{
+    max-width: 40vw;
+    border-radius: 15px;
+    margin: 1rem; 
+
+}

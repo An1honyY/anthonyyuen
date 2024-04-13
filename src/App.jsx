@@ -8,6 +8,7 @@ import About from './pages/about'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
 import Znake from './pages/projects/znake'
+import Fingerprint from './pages/projects/fingerprint'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects/znake" element={<Znake />} />
+          <Route path="/projects/fingerprint" element={<Fingerprint />} />
         </Routes>
         <Footer />
       </Router>

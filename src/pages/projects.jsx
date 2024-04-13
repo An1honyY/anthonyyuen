@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import './projects.css'
 import stock from '../assets/stock.webp'
 import znake_img from '../assets/znake1.webp'
+import fingerprint_img from '../assets/fingerprint1.webp'
 
 function Projects() {
 
@@ -33,8 +34,8 @@ function Projects() {
                         <p>Framework: Unity</p>
                     </div>
                 </Link>
-                <div className="project-card">
-                    <img src={stock} />
+                <Link to="/projects/fingerprint" className="project-card">
+                    <img src={fingerprint_img} />
                     <div className="project-card-text">
                         <h2>Fingerprint Attendance</h2>
                         <p>An IoT Fingerprint Attendance prototype using a Raspberry Pi, Adafruit fingerprint sensor and Sunfounder Components.</p>
@@ -45,7 +46,7 @@ function Projects() {
                         <p>IoT Platform: AWS (IoT Core, IoT Analytics, S3, QuickSight)</p>
                         <p>Web Protocol: MQTT</p>
                     </div>
-                </div>
+                </Link>
                 <div className="project-card">
                     <img src={stock} />
                     <div className="project-card-text">
