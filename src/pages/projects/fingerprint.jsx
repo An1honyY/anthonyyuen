@@ -65,7 +65,7 @@ const Fingerprint = () => {
                 <section>
                     <h2>Github</h2>
                     <p>
-                        Check out the Code Here: <a href="" target="_blank" rel="noopener noreferrer">https://github.com/</a>
+                        Check out the Code Here: <a href="https://github.com/An1honyY/IoT-FingerprintAttendance-2023" target="_blank" rel="noopener noreferrer">https://github.com/An1honyY/IoT-FingerprintAttendance-2023</a>
                     </p>
 
                 </section>
