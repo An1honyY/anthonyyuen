@@ -9,6 +9,7 @@ import Projects from './pages/projects'
 import Contact from './pages/contact'
 import Znake from './pages/projects/znake'
 import Fingerprint from './pages/projects/fingerprint'
+import ToothMate from './pages/projects/toothmate'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects/znake" element={<Znake />} />
           <Route path="/projects/fingerprint" element={<Fingerprint />} />
+          <Route path="/projects/toothmate" element={<ToothMate />} />
         </Routes>
         <Footer />
       </Router>

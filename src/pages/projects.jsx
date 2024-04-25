@@ -4,6 +4,7 @@ import './projects.css'
 import stock from '../assets/stock.webp'
 import znake_img from '../assets/znake1.webp'
 import fingerprint_img from '../assets/fingerprint1.webp'
+import toothmate_img from '../assets/toothmate1.webp'
 
 function Projects() {
 
@@ -47,8 +48,8 @@ function Projects() {
                         <p>Web Protocol: MQTT</p>
                     </div>
                 </Link>
-                <div className="project-card">
-                    <img src={stock} />
+                <Link to="/projects/toothmate" className="project-card">
+                    <img src={toothmate_img} />
                     <div className="project-card-text">
                         <h2>Tooth Mate</h2>
                         <p>A year long Research and Development paper culminating in the development of a Dental Web App prototype made in React.js.</p>
@@ -59,7 +60,7 @@ function Projects() {
                         <p>Language: JavaScript, HTML, CSS</p>
                         <p>Framework: React.js</p>
                     </div>
-                </div>
+                </Link>
                 <div className="project-card">
                     <img src={stock} />
                     <div className="project-card-text">
