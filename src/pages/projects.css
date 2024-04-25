@@ -49,3 +49,10 @@
     color: black;
     text-align: left;
 }
+
+@media (max-width: 768px) {
+    .project-card img {
+        height: auto;
+        width: 100%;
+    }
+}
