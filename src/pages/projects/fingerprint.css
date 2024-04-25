@@ -33,7 +33,7 @@
     margin-bottom: 2em;
     text-align: left;
     box-sizing: border-box;
-    background-color: #94d8f7;
+    background-color: hsl(32, 71%, 84%);
 }
 
 .fingerprint-content .fingerprint-snapshots {
