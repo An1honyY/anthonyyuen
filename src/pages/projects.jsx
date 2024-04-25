@@ -1,25 +1,20 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import './projects.css'
-import stock from '../assets/stock.webp'
 import znake_img from '../assets/znake1.webp'
 import fingerprint_img from '../assets/fingerprint1.webp'
 import toothmate_img from '../assets/toothmate1.webp'
+import portfolio_img from '../assets/portfolio1.webp'
 
 function Projects() {
 
     return (
         <main>
-            <div className="work-in-progress-card">
-                <h2>Coming Soon!</h2>
-                <p>This is a work in Progress.
-                    Check back later for updates</p>
-            </div>
             <h1>
                 Projects
             </h1>
 
-            <p> Heres some of my projects</p>
+            <p> Here's some of my projects</p>
 
             <div className="projects">
                 <Link to="/projects/znake" className="project-card">
@@ -62,7 +57,7 @@ function Projects() {
                     </div>
                 </Link>
                 <div className="project-card">
-                    <img src={stock} />
+                    <img src={portfolio_img} />
                     <div className="project-card-text">
                         <h2>This Website</h2>
                         <p>A portfolio website to present myself in an interactive and visual format.</p>
