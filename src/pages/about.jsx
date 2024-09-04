@@ -4,11 +4,6 @@ import './about.css'
 function About() {
     return (
         <main>
-            <div className="work-in-progress-card">
-                <h2>Coming Soon!</h2>
-                <p>This is a work in Progress.
-                    Check back later for updates</p>
-            </div>
             <h1>
                 About
             </h1>
@@ -16,10 +11,10 @@ function About() {
             <section className="about-card">
                 <h3>Who am I?</h3>
                 <p>I'm a fresh job seeker with an academic background in ICT.</p>
-                <p>Roles I'd be best fit for are Helpdesk Support and Junior Developer.</p> 
+                <p>Roles I'd be best fit for are Helpdesk Support and Junior Software Developer.</p> 
                 <br></br>
                 <p>I'm looking for a full-time entry-level job.</p> 
-                <p>I'm also interested in other part-time work in the meanwhile.</p>
+                <p>I'm also interested in other part-time work in the meantime.</p>
                 <br></br>
                 <h3>Background</h3>
                 <p>I attended Auckland University of Technology.</p>
@@ -28,12 +23,13 @@ function About() {
                 <p>I gained experience in Game, IoT and Web development, using languages such as Java, C#, Python, PHP and React.js. </p>
                 <p>I was also given the chance to learn concepts such as the ITIL framework for services, needs analysis and security management.</p>
                 <br></br>
-                <p>My studies involved various team-based projects to give me practical job skills - Communication and Teamwork being chief of the soft skills I obtained.</p>
-                <p>Job experience includes part time gardening and violin tutoring, which have built up my resilience and people patience.</p>
+                <p>My studies involved various team-based projects to give me practical soft skills - Problem Solving, Communication and Teamwork.</p>
+                <p>Job experience includes part-time gardening and violin tutoring, which have built up my tenacity and people patience.</p>
 
                 <br></br>
-                <p>Currently, I'm practicing Web development. This website helps with that :)</p>
-                <p>I'm also studying towards the COMPTIA A+ cert to provide me with stronger foundational IT support related skills.</p>
+                <p>At the moment I'm practising Web development.</p>
+                <p>My current project is a Mini Essay web app to encourage better learning using the Feynman technique.</p>
+                <p>(That's where you learn through teaching. In this case, through a short typed format)</p>
             </section>
         </main>
     )
