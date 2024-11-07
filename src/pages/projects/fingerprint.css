@@ -1,6 +1,13 @@
 .fingerprint {
     margin: 40px;
 }
+
+@media (max-width: 768px) {
+    .fingerprint {
+        margin: 5px;
+    }
+}
+
 .fingerprint h1 {
     font-size: 24px;
     font-weight: bold;

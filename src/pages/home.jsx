@@ -9,13 +9,11 @@ function Home() {
                 <p>Hi there!</p>
                 <h1>I'm Anthony</h1>
                 <br></br>
-                <p>I'm a recent Grad from AUT</p>
+                <p>I'm a Software Development Graduate from AUT</p>
                 <br></br>
-                <p>I'm looking for jobs in </p>
-                <br></br>
-                <h2>Software Development</h2>
-                <p>and</p>
-                <h2>IT Support</h2>
+                <h2>I'm best suited for IT</h2>
+                <p>But really, I'd appreciate work experience in</p>
+                <h2>Any Entry-level Role</h2>
                 <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="noopener noreferrer">
                     Download my CV
                 </a>

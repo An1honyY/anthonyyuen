@@ -1,6 +1,13 @@
 .znake {
     margin: 40px;
 }
+
+@media (max-width: 768px) {
+    .znake {
+        margin: 5px;
+    }
+}
+
 .znake h1 {
     font-size: 24px;
     font-weight: bold;

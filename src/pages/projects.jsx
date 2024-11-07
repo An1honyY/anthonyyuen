@@ -5,6 +5,7 @@ import znake_img from '../assets/znake1.webp'
 import fingerprint_img from '../assets/fingerprint1.webp'
 import toothmate_img from '../assets/toothmate1.webp'
 import portfolio_img from '../assets/portfolio1.webp'
+import press_img from '../assets/press.svg'
 
 function Projects() {
 
@@ -14,7 +15,11 @@ function Projects() {
                 Projects
             </h1>
 
-            <p> Here's some of my projects</p>
+            <p> Here's some of my projects.
+                <br></br>
+                <img src={press_img} /> 
+                Click through for more details.
+            </p>
 
             <div className="projects">
                 <Link to="/projects/znake" className="project-card">
