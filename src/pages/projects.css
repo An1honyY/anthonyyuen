@@ -19,6 +19,13 @@
     justify-items: center;
 }
 
+@media (max-width: 400px) {
+    .projects {
+        padding: 0px;
+        gap: 5px;
+    }
+}
+
 .project-card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
