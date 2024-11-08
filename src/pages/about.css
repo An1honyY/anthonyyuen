@@ -34,3 +34,7 @@
     font-size: 1em;
     /* color: white; */
 }
+
+.about-card img {
+    padding: 0 3px;
+}
