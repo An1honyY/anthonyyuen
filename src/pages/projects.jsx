@@ -14,12 +14,12 @@ function Projects() {
             <h1>
                 Projects
             </h1>
-
+            <br></br>
             <p> Here's some of my projects.
                 <br></br>
-                <img src={press_img} /> 
                 Click through for more details.
             </p>
+                <img src={press_img} /> 
 
             <div className="projects">
                 <Link to="/projects/znake" className="project-card">

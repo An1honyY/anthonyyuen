@@ -1,5 +1,6 @@
 import React from "react"
 import './about.css'
+import email_img from '../assets/email-send.svg'
 import diploma_img from '../assets/diploma.svg'
 import grad_img from '../assets/grad.svg'
 import java_img from '../assets/java.svg'
@@ -62,7 +63,10 @@ function About() {
                 <img src={violin_img}></img>
                 <br></br>
                 <br></br>
-                <p>At the moment I'm practising Web development.</p>
+                <p>At the moment I'm doing an IT Sales Internship, reaching out to businesses interested in IT support.</p>
+                <p>I've sent out a couple hundred emails and have clicked through hundreds of business websites.</p>
+                <img src={email_img}></img>
+                <br></br>
                 <p>My current project is a Mini Essay web app to encourage better learning using the Feynman technique.</p>
                 <p>It uses React with Typescript, the DaisyUI component library, a WYSIWYG text editor called BlockNote, and MongoDB as the backend.</p>
                 <br></br>

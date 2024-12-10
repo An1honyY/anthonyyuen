@@ -5,12 +5,7 @@ import github from '../assets/github-icon.svg'
 import email from '../assets/email-icon.svg'
 
 function Footer() {
-    function copyToClipboard() {
-        const email = "ant.jo.yuen@gmail.com";
-        navigator.clipboard.writeText(email).then(() => {
-            alert('Email: "ant.jo.yuen@gmail.com" copied to clipboard');
-        });
-    }
+    
 
     return (
         <footer>
@@ -29,7 +24,7 @@ function Footer() {
                     <div className="icons">
                         <a href="https://linkedin.com/in/anthony-yuen-089208229" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkednin-icon" /></a>
                         <a href="https://github.com/An1honyY" target="_blank" rel="noopener noreferrer"><img src={github} alt="github-icon" /></a>
-                        <img src={email} alt="email-icon" onClick={copyToClipboard} />
+                        <a href="mailto:ant.jo.yuen@gmail.com"><img src={email} alt="email-icon" /></a>
                     </div>
 
                     <p className="copyright">
