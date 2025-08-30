@@ -1,7 +1,7 @@
 .home-card {
     background: hsla(33, 94%, 57%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 70%);
-    filter: drop-shadow(0 0 1em #b9a6a6);
+    background: linear-gradient(90deg, hsl(33, 94%, 51%) 0%, hsl(34, 94%, 56%) 70%);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     padding: 2em;
     border-radius: 20px;
     height: fit-content;
@@ -17,19 +17,19 @@
 
 .home-card h1 {
     font-size: 4em;
-    font-weight: 600;
-    color: white;
+    font-weight: 700;
+    color: #4f4343;
 }
 
-.home-card h2 {
-    font-size: 4em;
-    color: white;
+.home-card emphasis {
+    font-weight: 900;
+    color: #fdfbdf;
 }
 
 .home-card p {
     font-size: 1.5em;
     font-weight: 500;
-    color: black;
+    color: #2a2727;
 }
 
 
@@ -37,8 +37,8 @@
 
 .home-button-CV {
     text-decoration: none;
-    color: white;
-    background-color: #315aff;
+    color: #fdfbdf;
+    background-color: #832905;
     font-weight: 600;
     padding: 0.7em;
     border-radius: 10px;
@@ -51,8 +51,8 @@
 }
 
 .home-button-CV:hover {
-    color: #f89b2a;
-    background-color: #2035f8;
+    color: #f89e27;
+    background-color: #315aff;
     font-weight: 700;
     box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.5);
 }
@@ -135,11 +135,11 @@
 @media (max-width: 768px) {
 
     .home-card h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
-    .home-card h2 {
-        font-size: 2.5em;
+    .home-card br.second  {
+        display: none;
     }
 
     .home-card p {

@@ -6,14 +6,18 @@ function Home() {
     return (
         <main>
             <section className="home-card">
-                <p>Hi there!</p>
-                <h1>I'm Anthony</h1>
+                <p >Hi there!</p>
+                <h1>I'm <emphasis>Anthony</emphasis></h1>
                 <br></br>
-                <p>I'm a Software Development Graduate from AUT</p>
+                <p>I'm currently at UoA studying a</p>
+                <br className={"second"}></br>
+                <h1>Master's of <emphasis>InfoTech</emphasis></h1>
                 <br></br>
-                <h2>I'm best suited for IT</h2>
-                <p>But really, I'd appreciate work experience in</p>
-                <h2>Any Entry-level Role</h2>
+                <p>I did my undergrad at AUT, specialising in</p>
+                <br className={"second"}></br>
+                <h1>Software Dev and Digital Services</h1>
+                <br></br>
+                <p>Currently looking for an Entry Level role -></p>
                 <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf" target="_blank" rel="noopener noreferrer">
                     Download my CV
                 </a>
