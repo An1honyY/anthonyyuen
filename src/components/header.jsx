@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
+import SlowHashLink from "./SlowHashLink";
 import logo from '/dev-logo.svg'
 import './header.css'
 
@@ -37,9 +38,9 @@ function Header() {
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
-        <Link to="/">
+        <HashLink smooth to="/#home">
           <h1>Anthony <div className="impact"> Yuen</div></h1>
-        </Link>
+        </HashLink>
       </div>
       <div className="header-container-right">
         <div ref={menuRef} className={`burger-menu ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -51,16 +52,16 @@ function Header() {
         <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <ul>
             <li>
-              <Link to="/" onClick={toggleMenu}>Home</Link>
+              <SlowHashLink smooth to="/#home" onClick={toggleMenu}>Home</SlowHashLink>
             </li>
             <li>
-              <Link to="/about" onClick={toggleMenu}>About</Link>
+              <SlowHashLink smooth to="/#about" onClick={toggleMenu}>About</SlowHashLink>
             </li>
             <li>
-              <Link to="/projects" onClick={toggleMenu}>Projects</Link>
+              <SlowHashLink smooth to="/#projects" onClick={toggleMenu}>Projects</SlowHashLink>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+              <SlowHashLink smooth to="/#contact" onClick={toggleMenu}>Contact</SlowHashLink>
             </li>
           </ul>
         </nav>

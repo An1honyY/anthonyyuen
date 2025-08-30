@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
 import './projects.css'
 import znake_img from '../assets/znake1.webp'
 import fingerprint_img from '../assets/fingerprint1.webp'
@@ -22,7 +22,7 @@ function Projects() {
                 <img src={press_img} /> 
 
             <div className="projects">
-                <Link to="/projects/znake" className="project-card">
+                <HashLink smooth to="/znake" className="project-card">
                     <img src={znake_img} />
                     <div className="project-card-text">
                         <h2>Znake</h2>
@@ -34,8 +34,8 @@ function Projects() {
                         <p>Language: C#</p>
                         <p>Framework: Unity</p>
                     </div>
-                </Link>
-                <Link to="/projects/fingerprint" className="project-card">
+                </HashLink>
+                <HashLink smooth to="/fingerprint" className="project-card">
                     <img src={fingerprint_img} />
                     <div className="project-card-text">
                         <h2>Fingerprint Attendance</h2>
@@ -47,8 +47,8 @@ function Projects() {
                         <p>IoT Platform: AWS (IoT Core, IoT Analytics, S3, QuickSight)</p>
                         <p>Web Protocol: MQTT</p>
                     </div>
-                </Link>
-                <Link to="/projects/toothmate" className="project-card">
+                </HashLink>
+                <HashLink smooth to="/toothmate" className="project-card">
                     <img src={toothmate_img} />
                     <div className="project-card-text">
                         <h2>Tooth Mate</h2>
@@ -60,7 +60,7 @@ function Projects() {
                         <p>Language: JavaScript, HTML, CSS</p>
                         <p>Framework: React.js</p>
                     </div>
-                </Link>
+                </HashLink>
                 <div className="project-card">
                     <img src={portfolio_img} />
                     <div className="project-card-text">

@@ -2,20 +2,16 @@
 
 header {
     color: black;
-    height: 3.8rem;
+    min-height: 3.8rem;
     background: white;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     padding: 1em 3em 1em 3em;
     font-size: 0.6em;
-    margin-bottom: 3em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-self: center;
     user-select: none;
-    position: sticky;
-    top: 0;
-    z-index: 1;
     width: 100%;
 }
 
