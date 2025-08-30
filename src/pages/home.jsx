@@ -18,7 +18,7 @@ function Home() {
                 <h1>Software Dev and Digital Services</h1>
                 <br></br>
                 <p>Currently looking for an Entry Level role &rarr;</p>
-                <a className="home-button-CV" href={"/AnthonyYuen_CV_2024.pdf"} download="AnthonyYuen_CV_2024.pdf"
+                <a className="home-button-CV" href={"/AnthonyYuen_CV_2025.pdf"} download="AnthonyYuen_CV_2025.pdf"
                    target="_blank" rel="noopener noreferrer">
                     Download my CV
                 </a>
