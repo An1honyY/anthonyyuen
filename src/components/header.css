@@ -3,7 +3,7 @@
 header {
     color: black;
     min-height: 3.8rem;
-    background: white;
+    background: var(--header-bg-color);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     padding: 1em 3em 1em 3em;
     font-size: 0.6em;
@@ -227,7 +227,7 @@ nav a:hover {
         right: 0;
         width: 7rem;
         height: 14rem;
-        background: white;
+        background: var(--header-bg-color);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         visibility: hidden;
         border-radius: 10px;

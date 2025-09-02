@@ -28,7 +28,7 @@ function Footer() {
                     </div>
 
                     <p className="copyright">
-                        © 2024 Anthony Yuen. All rights reserved.
+                        © 2025 Anthony Yuen. All rights reserved.
                     </p>
                 </div>
             </div>

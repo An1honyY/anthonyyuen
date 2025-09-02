@@ -18,11 +18,14 @@
 
 /* About Card Font */
 
-.about-card h1 {
+h1.about-title{
     font-size: 4em;
     font-weight: 600;
-    /* color: white; */
-    
+    color: #ea580c;
+    background-color: #ffedd5;
+    border: 5px solid #fed7aa;
+    border-radius: .6em;
+    padding: 0 .5em;
 }
 
 .about-card h2 {

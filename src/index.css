@@ -4,7 +4,9 @@
   font-weight: 400;
 
   color: black;
-  background-color: white;
+  --main-bg-color: #fcf4e0;
+  --header-bg-color: #f4f3f2;
+  background-color: var(--main-bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

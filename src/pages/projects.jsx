@@ -11,7 +11,7 @@ function Projects() {
 
     return (
         <main>
-            <h1>
+            <h1 className={"projects-title"}>
                 Projects
             </h1>
             <br></br>

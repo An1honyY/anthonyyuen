@@ -8,7 +8,7 @@ function Contact() {
     return (
 
         <main>
-            <h1>
+            <h1 className={"contact-title"}>
                 Contact
             </h1>
             <br></br>

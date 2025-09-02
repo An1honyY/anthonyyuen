@@ -18,8 +18,8 @@ footer .border-triangle {
     height: 0;
     border-left: 50vw solid hsla(0, 0%, 100%, 0);
     border-right: 50vw solid rgba(0, 0, 255, 0);
-    border-bottom: 50px solid hsla(256, 57%, 23%, 1);
-    border-bottom: 50px solid linear-gradient(180deg, hsla(256, 57%, 23%, 1) 20%, hsla(257, 72%, 41%, 1) 69%);
+    border-bottom: 50px solid hsl(33, 98%, 47%);
+    border-bottom: 50px solid linear-gradient(180deg, hsl(33, 98%, 47%) 20%, hsl(34, 94%, 56%) 69%);
 
 }
 
@@ -28,13 +28,13 @@ footer .polygon-fill {
     height: 100%;
     position: absolute;
     clip-path: polygon(0 0, 90% 0, 100% 200%, 0 40%);
-    background: hsla(256, 57%, 23%, 1);
-    background: linear-gradient(180deg, hsla(256, 57%, 23%, 1) 20%, hsla(257, 72%, 41%, 1) 69%);
+    background: hsl(33, 98%, 47%);
+    background: linear-gradient(180deg, hsl(33, 98%, 47%) 20%, hsl(34, 94%, 56%) 69%);
 }
 
 footer .content {
-    background: hsla(256, 57%, 23%, 1);
-    background: linear-gradient(180deg, rgb(40, 21, 95) 20%, rgb(76, 35, 180) 69%);
+    background: hsl(33, 98%, 47%);
+    background: linear-gradient(180deg, rgb(239, 133, 3) 20%, rgb(248, 158, 39) 69%);
     min-height: 40vh;
     height: auto;
     width: auto;
@@ -57,7 +57,7 @@ footer .copyright {
     bottom: 0;
     padding: 1em;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 300;
     color: white;
 }
 

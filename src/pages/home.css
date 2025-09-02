@@ -7,8 +7,7 @@
     height: fit-content;
     width: fit-content;
     min-width: 300px;
-    margin: 40px 0.5em;
-    margin-bottom: 4em;
+    margin: 1em 0.5em 4em;
     text-align: left;
     box-sizing: border-box;
 }
@@ -96,13 +95,13 @@
 .wave svg{
     width: calc(100% + 1.3px);
     height: 100px;
-    fill: white;
+    fill: var(--main-bg-color);
 }
 
 .wave2 svg {
     width: calc(100% + 1.3px);
     height: 100px;
-    fill: white;
+    fill: var(--main-bg-color);
     background: linear-gradient(90deg, #3a47d5 0%, #00d2ff 100%);
 }
 

@@ -18,10 +18,14 @@
 
 /* Contact Card Font */
 
-.contact-card h1 {
+h1.contact-title {
     font-size: 4em;
     font-weight: 600;
-    color: white;
+    color: #ea580c;
+    background-color: #ffedd5;
+    border: 5px solid #fed7aa;
+    border-radius: .6em;
+    padding: 0 .5em;
 }
 
 .contact-card h2 {

@@ -19,7 +19,7 @@ import car_img from '../assets/car.svg'
 function About() {
     return (
         <main>
-            <h1>
+            <h1 className="about-title">
                 About
             </h1>
             <br></br>
