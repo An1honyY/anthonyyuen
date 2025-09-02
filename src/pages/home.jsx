@@ -8,7 +8,7 @@ function Home() {
             <section className="home-card">
                 <p>Hi there!</p>
                 <h1 className={"type_writer"}>I'm <emphasis>Anthony</emphasis></h1>
-                <br></br>
+                <br></br><br></br>
                 <p>I'm currently at UoA studying a</p>
                 <br className={"hideForMobile"}></br>
                 <h1>Master's of <emphasis>InfoTech</emphasis></h1>
