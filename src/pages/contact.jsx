@@ -1,7 +1,7 @@
 import './contact.css'
-import linkedin from '../assets/linkedin-icon.svg'
-import github from '../assets/github-icon.svg'
-import email from '../assets/email-icon.svg'
+import linkedin from '../assets/linkedin-icon-black.svg'
+import github from '../assets/github-icon-black.svg'
+import email from '../assets/email-icon-black.svg'
 
 function Contact() {
     return (
@@ -12,17 +12,30 @@ function Contact() {
             </h1>
             <br></br>
             <section className="contact-card">
+                <a href="mailto:ant.jo.yuen@gmail.com">
+                    <div className={"card"}>
+                        <img src={email} alt="email-icon"/>
+                        <h2>Flick me an Email: </h2><p>ant.jo.yuen@gmail.com</p>
+                    </div>
+                </a>
+                <br></br>
 
-                <a href="mailto:ant.jo.yuen@gmail.com"><img src={email} alt="email-icon" /></a>
-                <p>Flick me an Email: <a href="mailto:ant.jo.yuen@gmail.com">ant.jo.yuen@gmail.com</a></p>
+                <a href="https://github.com/An1honyY" target="_blank" rel="noopener noreferrer">
+                    <div className={"card"}>
+                        <img src={github}
+                             alt="github-icon"/>
+                        <h2>Check out my Github: </h2><p>https://github.com/An1honyY</p>
+                    </div>
+                </a>
                 <br></br>
-                <a href="https://github.com/An1honyY" target="_blank" rel="noopener noreferrer"><img src={github} alt="github-icon" /></a>
-                <p>Check out my Github: <a href="https://github.com/An1honyY" rel="noopener noreferrer">https://github.com/An1honyY</a></p>
-                <br></br>
-                <a href="https://linkedin.com/in/anthony-yuen-089208229" target="_blank" rel="noopener noreferrer" className="linkedin"><img src={linkedin} alt="linkednin-icon" /></a>
-                <p>Connect with me on LinkedIn: <a href="https://linkedin.com/in/anthony-yuen-089208229" rel="noopener noreferrer">https://www.linkedin.com/in/anthony-yuen-089208229/</a></p>
-                <br></br>
-                <br></br>
+
+                <a href="https://www.linkedin.com/in/anthonyyuen-dev/" target="_blank" rel="noopener noreferrer">
+                    <div className={"card"}>
+                        {/*classname linkedin required to make sure svg is aligned*/}
+                        <img className={"linkedin"} src={linkedin} alt="linkednin-icon"/>
+                        <h2>Connect with me on LinkedIn: </h2><p>https://www.linkedin.com/in/anthonyyuen-dev/</p>
+                    </div>
+                </a>
 
 
             </section>

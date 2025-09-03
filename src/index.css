@@ -6,6 +6,7 @@
   color: black;
   --main-bg-color: #fcf4e0;
   --header-bg-color: #f4f3f2;
+  --card-bg-color: #fdfefe;
   background-color: var(--main-bg-color);
 
   font-synthesis: none;
