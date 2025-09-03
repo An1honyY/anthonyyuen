@@ -1,4 +1,3 @@
-import React from 'react';
 import './toothmate.css';
 import img1 from '../../assets/toothmate1.webp';
 import img2 from '../../assets/toothmate2.webp';

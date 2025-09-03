@@ -1,4 +1,3 @@
-import React from "react"
 import { HashLink } from 'react-router-hash-link';
 import './projects.css'
 import znake_img from '../assets/znake1.webp'

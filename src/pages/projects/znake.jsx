@@ -1,4 +1,3 @@
-import React from 'react';
 import './znake.css';
 import img1 from '../../assets/znake1.webp';
 import img2 from '../../assets/znake2.webp';

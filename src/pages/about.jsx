@@ -1,4 +1,3 @@
-import React from "react"
 import './about.css'
 import email_img from '../assets/email-send.svg'
 import diploma_img from '../assets/diploma.svg'

@@ -1,4 +1,3 @@
-import React from 'react';
 import './fingerprint.css';
 import img1 from '../../assets/fingerprint1.webp';
 import img2 from '../../assets/fingerprint2.webp';

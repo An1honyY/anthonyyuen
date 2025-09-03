@@ -1,4 +1,3 @@
-import React from "react"
 import './contact.css'
 import linkedin from '../assets/linkedin-icon.svg'
 import github from '../assets/github-icon.svg'

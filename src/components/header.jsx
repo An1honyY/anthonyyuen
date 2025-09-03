@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import { HashLink } from 'react-router-hash-link';
 import SlowHashLink from "./SlowHashLink";
