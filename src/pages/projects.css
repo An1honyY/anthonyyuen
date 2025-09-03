@@ -20,13 +20,12 @@ h1.projects-title {
 }
 
 .project-card {
-    background-color: #f8f8f8;
+    background-color: var(--card-bg-color);
     border-radius: 30px;
-    height: min-content * 2;
     margin: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    overflow: hidden;
     justify-items: center;
+    overflow: hidden;
 }
 
 @media (max-width: 400px) {
@@ -39,19 +38,19 @@ h1.projects-title {
 .project-card:hover {
     transform: translateY(-5px);
     transition: 0.3s;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 0px 0px 30px 1px rgba(248, 141, 11, 0.4);
 }
 
 
 .project-card img {
-    height: 30vh;
+    height: 31vh;
     /* height: auto; */
     margin: auto;
     border-radius: 30px 30px 0px 0px;
 }
 
 .project-card-text {
-    padding: 0.5em;
+    padding: 1em;
 
 }
 
