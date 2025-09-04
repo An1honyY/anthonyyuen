@@ -118,8 +118,7 @@
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease;
     display: block;
-    margin: 0 auto;
-    margin-top: 1.3em;
+    margin: 1.3em auto 0;
     width: fit-content;
 }
 
@@ -146,10 +145,10 @@
     to { width: 9ch }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 600px) {
     @keyframes typing {
         from { width: 0 }
-        to { width: 10ch }
+        to { width: 11ch }
     }
 }
 
@@ -160,6 +159,12 @@
 }
 
 /* Media Queries */
+
+@media (max-width: 600px) {
+    .home-card {
+        padding: 1em;
+    }
+}
 
 @media (max-width: 768px) {
 

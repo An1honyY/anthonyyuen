@@ -23,7 +23,7 @@ function Projects() {
             <div className="projects">
                 <HashLink smooth to="/znake" className="project-card">
                     <img src={znake_img} />
-                    <h9>___________</h9>
+                    <h6>___________</h6>
                     <div className="project-card-text">
                         <h2>Znake</h2>
                         <p>A 3D Gaiju style snake game made in Unity.</p>
@@ -37,7 +37,7 @@ function Projects() {
                 </HashLink>
                 <HashLink smooth to="/fingerprint" className="project-card">
                     <img src={fingerprint_img} />
-                    <h9>___________</h9>
+                    <h6>___________</h6>
                     <div className="project-card-text">
                         <h2>Fingerprint Attendance</h2>
                         <p>An IoT Fingerprint Attendance prototype using a Raspberry Pi, Adafruit fingerprint sensor and Sunfounder Components.</p>
@@ -51,7 +51,7 @@ function Projects() {
                 </HashLink>
                 <HashLink smooth to="/toothmate" className="project-card">
                     <img src={toothmate_img} />
-                        <h9>___________</h9>
+                        <h6>___________</h6>
                     <div className="project-card-text">
                         <h2>Tooth Mate</h2>
                         <p>A year long Research and Development paper culminating in the development of a Dental Web App prototype made in React.js.</p>
@@ -65,7 +65,7 @@ function Projects() {
                 </HashLink>
                 <div className="project-card">
                     <img src={portfolio_img} />
-                        <h9>___________</h9>
+                        <h6>___________</h6>
                     <div className="project-card-text">
                         <h2>This Website</h2>
                         <p>A portfolio website to present myself in an interactive and visual format.</p>
