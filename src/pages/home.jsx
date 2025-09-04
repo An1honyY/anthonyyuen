@@ -6,11 +6,11 @@ function Home() {
         <main>
             <section className="home-card">
                 <p>Hi there!</p>
-                <h1 className={"type_writer"}>I'm <emphasis>Anthony</emphasis></h1>
+                <h1 className={"type_writer"}>I'm <div className={"emphasis"}>Anthony</div></h1>
                 <br></br><br></br>
                 <p>I'm currently at UoA studying a</p>
                 <br className={"hideForMobile"}></br>
-                <h1>Master's of <emphasis>InfoTech</emphasis></h1>
+                <h1>Master's of <div className={"emphasis"}>InfoTech</div></h1>
                 <br></br>
                 <p>I did my undergrad at AUT, specialising in</p>
                 <br className={"hideForMobile"}></br>

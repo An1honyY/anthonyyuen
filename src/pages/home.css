@@ -20,9 +20,10 @@
     color: #4f4343;
 }
 
-.home-card emphasis {
+.home-card .emphasis {
     font-weight: 900;
     color: #fdfbdf;
+    display: inline-block;
 }
 
 .home-card p {
@@ -143,6 +144,13 @@
 @keyframes typing {
     from { width: 0 }
     to { width: 9ch }
+}
+
+@media (max-width: 355px) {
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 10ch }
+    }
 }
 
 @keyframes blink-caret {
