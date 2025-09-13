@@ -25,6 +25,7 @@ h1.contact-title {
     border: 5px solid #fed7aa;
     border-radius: .6em;
     padding: 0 .5em;
+    margin: 0.4em auto;
 }
 
 .contact-card h2 {

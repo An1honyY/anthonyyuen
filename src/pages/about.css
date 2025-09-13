@@ -10,8 +10,7 @@
     height: fit-content;
     width: fit-content;
     min-width: 300px;
-    margin: 0 0.5em;
-    margin-bottom: 4em;
+    margin: 0 0.5em 4em;
     text-align: left;
     box-sizing: border-box;
 }
@@ -26,6 +25,7 @@ h1.about-title{
     border: 5px solid #fed7aa;
     border-radius: .6em;
     padding: 0 .5em;
+    margin: 0.4em auto;
 }
 
 .about-card h2 {

@@ -28,10 +28,10 @@ function About() {
                 <p>Roles I'd be best fit for are Systems Analyst and Software Developer.</p>
                 <br></br>
                 <p>I'm currently studying back studying, available for full time work from February 2026.</p>
-                <p>I'm looking for an project based Summer IT internship to cap off my Master's.</p>
+                <p>I'm looking for an industry IT Project opportunity this Summer to cap off my Master's.</p>
                 <br></br>
                 <p>Practically speaking, I'm interested in any entry-level job offers.</p>
-                <p>It can only benefit me to gain new skills and experiences.</p>
+                <p>The opportunity to gain new skills and experiences is always tempting.</p>
                 <p>I'm based in West Auckland, with a Restricted Drivers License.</p>
                 <img src={auckland_img} style={{width: '8rem'}}></img>
                 <img src={car_img}></img>

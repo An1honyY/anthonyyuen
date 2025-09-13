@@ -17,6 +17,8 @@ h1.projects-title {
     border: 5px solid #fed7aa;
     border-radius: .6em;
     padding: 3px .5em;
+    margin: 0.4em auto;
+    text-align: center;
 }
 
 .project-card {
