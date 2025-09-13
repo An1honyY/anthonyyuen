@@ -136,20 +136,14 @@
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid black; /* cursor */
-    animation: typing 1.5s steps(17, end) forwards,
+    font-family: monospace;
+    animation: typing 1.3s steps(11, end) forwards,
     blink-caret 1s step-end infinite;
 }
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 9ch }
-}
-
-@media (max-width: 600px) {
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 10ch }
-    }
+    to { width: 11.14ch }
 }
 
 @keyframes blink-caret {
