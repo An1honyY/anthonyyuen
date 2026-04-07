@@ -21,6 +21,19 @@ function Projects() {
                 <img src={press_img} /> 
 
             <div className="projects">
+                <HashLink smooth to="/seesafe" className="project-card">
+                    <img src={znake_img} />
+                    <h6>___________</h6>
+                    <div className="project-card-text">
+                        <h2>SeeSafe</h2>
+                        <p>A community safety app designed to improve the sharing and tracking of incidents.</p>
+                        <br></br>
+                        <p>Agile Methodology: Scrum</p>
+                        <p>Role: Frontend/Full Stack Developer</p>
+                        <p>Team Members: 5</p>
+                        <p>Architecture: MERN (React Native) + Expo</p>
+                    </div>
+                </HashLink>
                 <HashLink smooth to="/znake" className="project-card">
                     <img src={znake_img} />
                     <h6>___________</h6>

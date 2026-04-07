@@ -2,3 +2,7 @@
   text-align: center;
   overflow: hidden;
 }
+
+ul {
+  padding: 20px;
+}

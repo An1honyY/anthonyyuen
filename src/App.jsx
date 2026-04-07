@@ -8,6 +8,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
+import SeeSafe from './pages/projects/seesafe'
 import Znake from './pages/projects/znake'
 import Fingerprint from './pages/projects/fingerprint'
 import ToothMate from './pages/projects/toothmate'
@@ -34,6 +35,7 @@ function App() {
                     }/>
 
                     {/* Separate Pages */}
+                    <Route path="/seesafe" element={<SeeSafe/>}/>
                     <Route path="/znake" element={<Znake/>}/>
                     <Route path="/fingerprint" element={<Fingerprint/>}/>
                     <Route path="/toothmate" element={<ToothMate/>}/>
