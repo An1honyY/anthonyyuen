@@ -113,14 +113,55 @@ const SeeSafe = () => {
                     <h2>Other Technologies I Used</h2>
                     <ul>
                         <li>Figma</li>
-                        <li>Cloudflare Worker</li>
+                        <li>Cloudflare Workers</li>
                         <li>Firebase Cloud Messaging</li>
-                        <li>Github Copilot</li>
+                        <li>Github Copilot - Claude Haiku 4.5</li>
                     </ul>
                 </section>
                 <section>
                     <h2>Snapshots</h2>
                     <div className="seesafe-snapshots">
+                        <div style={{ padding: '20px' }}>
+      <div
+        style={{
+          position: 'relative',
+          width: '90%',
+          paddingTop: '56.25%',
+          paddingBottom: 0,
+          boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+          margin: '1.6em auto', // Centers the div horizontally
+          overflow: 'hidden',
+          borderRadius: '8px',
+          willChange: 'transform',
+        }}
+      >
+        <iframe
+          loading="lazy"
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            top: 0,
+            left: 0,
+            border: 'none',
+            padding: 0,
+            margin: 0,
+          }}
+          src="https://www.canva.com/design/DAHGOsPWqo0/JW5g2WcV01nk_Mn4vP9iCg/view?embed"
+          allowFullScreen
+          allow="fullscreen"
+        />
+      </div>
+      <a 
+        href="https://www.canva.com/design/DAHGOsPWqo0/JW5g2WcV01nk_Mn4vP9iCg/view" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        SeeSafe ICT Grad School Project
+      </a> by Anthony Yuen and Team Pakka
+    </div>
+    <i>These znake imgs are placeholders</i>
+    <br></br>
                         <img src={img1} alt="Znake gameplay snapshot 1" />
                         <img src={img2} alt="Znake gameplay snapshot 2" />
                         <img src={img3} alt="Znake gameplay snapshot 3" />
