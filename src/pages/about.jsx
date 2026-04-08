@@ -14,6 +14,7 @@ import group_img from '../assets/group.svg'
 import webdev_img from '../assets/webdev.svg'
 import auckland_img from '../assets/auckland2.webp'
 import car_img from '../assets/car.svg'
+import ictgradschool_img from '../assets/ictgradschool.webp'
 
 function About() {
     return (
@@ -26,9 +27,10 @@ function About() {
                 <h3>Who am I?</h3>
                 <p>I'm a motivated job seeker with an academic background in IT.</p>
                 <p>Roles I'd be best fit for are Systems Analyst and Software Developer.</p>
+                <p>But I have a wide interest from Cybersec through HCI, Cloud and Data.</p>
                 <br></br>
-                <p>I'm currently studying back studying, available for full time work from February 2026.</p>
-                <p>I'm looking for an industry IT Project opportunity this Summer to cap off my Master's.</p>
+                <p>I'm fresh out of study and I'm available for full time work.</p>
+                <p>I'm looking for a supportive environment where I can grow while contributing towards real-world solutions that benefit my community.</p>
                 <br></br>
                 <p>Practically speaking, I'm interested in any entry-level job offers.</p>
                 <p>The opportunity to gain new skills and experiences is always tempting.</p>
@@ -71,7 +73,7 @@ function About() {
                 <img src={violin_img}></img>
                 <br></br>
                 <br></br>
-                <p>Last year, I did an IT Sales Internship with Stratus NZ, reaching out to businesses interested in IT
+                <p>For some office experience, I did an IT Sales Internship with Stratus NZ, reaching out to businesses interested in IT
                     support.</p>
                 <p>My emailing skills received a big level up.</p>
                 <img src={email_img}></img>
@@ -84,9 +86,15 @@ function About() {
                 <img src={webdev_img}></img>
                 <br></br>
                 <br></br>
-                <p>This year, I decided to continue my study, undertaking a Master's of InfoTech at UoA.</p>
-                <p>I've been learning Security for Smart-devices, Cloud Computing, Maintainable Programming, Human-Computer
+                <p>Last year, I decided to continue my study, undertaking a Master's of InfoTech at UoA.</p>
+                <p>I learnt about Security for Smart-devices, Cloud Computing, Maintainable Programming, Human-Computer
                     Interaction, Data Analytics and Digital Health.</p>
+                    <img src={ictgradschool_img} style={{width: '16rem'}}></img>
+                <br></br>
+                <br></br>
+                <p>To finish off my study, I got to join a summer project as an IT Student Intern in a mentored startup style environment.</p>
+                <p>We designed a community safety app called SeeSafe. Think of it as a one stop awareness platform for reporting and tracking safety incidents, with community posts, official news, and a map to avoid hotspots!</p>
+                <p>It ran on the uni's AWS services so unfortunately it's not currently running.</p>
             </section>
         </main>
     )
