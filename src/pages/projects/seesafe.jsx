@@ -103,7 +103,7 @@ const SeeSafe = () => {
                         <li>Navigation Bar</li>
                         <li>Opening a Post and Comments</li>
                         <li>Alerts Feed - Police News</li>
-                        <li>Serverless Function</li>
+                        <li>Serverless Function to bypass CORS and cache Police News</li>
                         <li>Android Push Notifications</li>
                         <li>Alerts Filter</li>
                         <li>And a load of bug fixes</li>
